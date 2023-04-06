@@ -14,7 +14,7 @@ public class JuniorEmployee implements Employee {
      * @return Integer 計算結果
      */
     @Override
-    public Integer getBonus(Integer base) throws NumberFormatException{
+    public Integer getBonus(final Integer base){
         return base * EmployeeGrade.JUNIOR.getGradeBonus();
     }
 }
