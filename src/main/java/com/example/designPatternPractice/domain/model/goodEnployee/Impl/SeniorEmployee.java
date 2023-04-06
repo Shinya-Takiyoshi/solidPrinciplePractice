@@ -1,7 +1,12 @@
 package com.example.designPatternPractice.domain.model.goodEnployee.Impl;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
 public class SeniorEmployee implements Employee{
-    String name;
+    private final String name;
     /**
      * 社員のボーナス給与を計算する
      *
@@ -10,6 +15,6 @@ public class SeniorEmployee implements Employee{
      */
     @Override
     public Integer getBonus(Integer base) {
-        return (int) Math.floor(base * EmployeeGrade.SENIOR.getGradeBonus());
+        return base * EmployeeGrade.SENIOR.getGradeBonus();
     }
 }

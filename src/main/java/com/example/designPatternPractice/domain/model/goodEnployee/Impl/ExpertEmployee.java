@@ -1,7 +1,12 @@
 package com.example.designPatternPractice.domain.model.goodEnployee.Impl;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
 public class ExpertEmployee implements Employee {
-    String name;
+    private final String name;
     /**
      * 社員のボーナス給与を計算する
      *
@@ -11,6 +16,6 @@ public class ExpertEmployee implements Employee {
     @Override
     public Integer getBonus(Integer base) {
         // badEmployeeから比較して、ExpertEmployee用のgrade値がないため追加する
-        return (int) Math.floor(base * EmployeeGrade.EXPERT.getGradeBonus());
+        return base * EmployeeGrade.EXPERT.getGradeBonus();
     }
 }
