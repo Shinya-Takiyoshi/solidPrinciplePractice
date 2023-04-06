@@ -1,4 +1,4 @@
-package com.example.designPatternPractice.domain.model.goodEnployee;
+package com.example.designPatternPractice.domain.model.goodEnployee.Impl;
 
 public interface Employee {
 

@@ -1,3 +1,5 @@
+package domain.model.badEmployee
+
 import com.example.designPatternPractice.domain.model.badEmployee.BonusCalculator
 import com.example.designPatternPractice.domain.model.badEmployee.Employee
 import com.example.designPatternPractice.domain.model.badEmployee.EmployeeGrade

@@ -1,6 +1,7 @@
-package com.example.designPatternPractice.domain.model.goodEnployee;
+package com.example.designPatternPractice.domain.model.goodEnployee.Impl;
 
 public class SeniorEmployee implements Employee{
+    String name;
     /**
      * 社員のボーナス給与を計算する
      *
