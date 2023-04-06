@@ -6,10 +6,10 @@
 
 | SOLID原則      | 対応パッケージ                                                |
 |--------------|--------------------------------------------------------|
-| 単一責任の原則      | com/example/designPatternPractice/domain/model/openClosed |
+| 単一責任の原則      | com/example/designPatternPractice/domain/model/singleResponsibility |
 | オープンクローズドの原則 |com/example/designPatternPractice/domain/model/openClosed                                                         |
 
 ### ・spockの使い方振り返り
 
-### ・あくまで学習用なのでこのリポジトリではUTで画面実装無し
+### ・あくまでSOLID原則についての学習用なのでこのリポジトリではUTで画面実装無し
 
