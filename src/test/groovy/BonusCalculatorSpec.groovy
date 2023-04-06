@@ -1,6 +1,6 @@
-import com.example.layerdArkitech.domain.model.badEmployee.BonusCalculator
-import com.example.layerdArkitech.domain.model.badEmployee.Employee
-import com.example.layerdArkitech.domain.model.badEmployee.EmployeeGrade
+import com.example.designPatternPractice.domain.model.badEmployee.BonusCalculator
+import com.example.designPatternPractice.domain.model.badEmployee.Employee
+import com.example.designPatternPractice.domain.model.badEmployee.EmployeeGrade
 import spock.lang.Specification
 
 class BonusCalculatorSpec extends Specification {

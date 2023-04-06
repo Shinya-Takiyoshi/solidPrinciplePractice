@@ -1,0 +1,1 @@
+package com.example.designPatternPractice.domain.model;
