@@ -1,4 +1,4 @@
-package com.example.designPatternPractice.domain.model.badEmployee;
+package com.example.designPatternPractice.domain.model.openClosed.badEmployee;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

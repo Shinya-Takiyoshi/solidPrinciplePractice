@@ -1,7 +1,7 @@
-package domain.model.goodEmployee
+package domain.model.openClosed.goodEmployee.impl
 
-import com.example.designPatternPractice.domain.model.goodEnployee.Impl.Employee
-import com.example.designPatternPractice.domain.model.goodEnployee.Impl.JuniorEmployee
+import com.example.designPatternPractice.domain.model.openClosed.goodEnployee.Impl.Employee
+import com.example.designPatternPractice.domain.model.openClosed.goodEnployee.Impl.JuniorEmployee
 import spock.lang.Specification
 import spock.lang.Unroll
 

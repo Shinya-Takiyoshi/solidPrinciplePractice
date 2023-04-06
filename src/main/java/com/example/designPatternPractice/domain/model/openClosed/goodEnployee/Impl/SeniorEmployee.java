@@ -1,11 +1,11 @@
-package com.example.designPatternPractice.domain.model.goodEnployee.Impl;
+package com.example.designPatternPractice.domain.model.openClosed.goodEnployee.Impl;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public class SeniorEmployee implements Employee{
+public class SeniorEmployee implements Employee {
     private final String name;
     /**
      * 社員のボーナス給与を計算する
