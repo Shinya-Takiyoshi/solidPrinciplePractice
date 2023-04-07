@@ -1,4 +1,4 @@
-# solidPrinciple
+# solidPrinciplePractice
 
 ## リポジトリの目的
 
