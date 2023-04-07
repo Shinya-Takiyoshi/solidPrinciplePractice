@@ -1,11 +1,15 @@
-package com.example.designPatternPractice.domain.model.dependencyInversion.noDI;
+package com.example.designPatternPractice.domain.model.dependencyInversion.yesDI;
+
+import lombok.RequiredArgsConstructor;
 
 /**
  * 練習のため、クラスをパッケージでまとめている。
  * 本来controllerクラスは、presentation/controllerに作成する
  * **/
+@RequiredArgsConstructor
 public class UserController {
-    private final UserService userService = new UserService();
+
+    private final IUserService userService;
 
     public User create(User user) {
         return this.userService.create(user);
